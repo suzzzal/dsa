@@ -16,7 +16,7 @@
    */
   Drupal.behaviors.importLanguageCodeSelector = {
     attach(context, settings) {
-      const form = once('autodetect-lang', '#locale-translate-import-form');
+      once('autodetect-lang', '#locale-translate-import-form', context);
       if (form.length) {
         const $form = $(form);
         const $langcode = $form.find('.langcode-input');
