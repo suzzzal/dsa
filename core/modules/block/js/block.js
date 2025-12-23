@@ -31,7 +31,7 @@
        *   A string with the summary.
        */
       function checkboxesSummary(context) {
-        const values = [];
+        const values = [$drupal];
         const $checkboxes = $(context).find(
           'input[type="checkbox"]:checked + label',
         );
