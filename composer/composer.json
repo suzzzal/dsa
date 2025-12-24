@@ -2,8 +2,8 @@
   "name": "drupal/ai_context",
   "type": "drupal-module",
      "description": "Provides site-specific AI context entities and dynamic routing for sub-agents.",
-  
- 
+    "license": "GPL-2.0-or-later",
+
 }
 
 
