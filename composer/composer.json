@@ -1,6 +1,7 @@
 {
   "name": "drupal/ai_context",
-  
+  "type": "drupal-module",
+ 
 }
 
 
